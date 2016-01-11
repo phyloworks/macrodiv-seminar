@@ -1,5 +1,7 @@
 # EEOB 590B-TH Macroevolution & Lineage Diversification 
 ### A graduate seminar led by [Tracy Heath](http://phyloworks.org/) at Iowa State University on phylogenetic methods for understanding rates of diversification
+
+## When and Where?
 ### Fridays 3:10 – 5:00 PM in 145 Bessey
 
 ## Seminar Description
