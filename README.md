@@ -24,13 +24,14 @@ This seminar will involve some hands-on use of phylogenetic methods for diversif
 * Tracer: [http://tree.bio.ed.ac.uk/software/tracer/](http://tree.bio.ed.ac.uk/software/tracer/)
 * FigTree: [http://tree.bio.ed.ac.uk/software/figtree/](http://tree.bio.ed.ac.uk/software/figtree/)
 * R: [https://cran.r-project.org/](https://cran.r-project.org/)
-* R Phylogenetics Packages: Install the [Phylogenetics Task View](https://cran.r-project.org/web/views/Phylogenetics.html) to get most of the packages for comparative phylogenetics (this can take a while):
+* R Phylogenetics Packages: Install the [Phylogenetics Task View](https://cran.r-project.org/web/views/Phylogenetics.html) to get most of the packages for comparative phylogenetics (this can take a while and may have some issues depending on version of R or operating system):
 
 ```
 install.packages("ctv")
 library("ctv")
 install.views("Phylogenetics")
 ```
+*If you have problems installing the phylogenetics task view, we can troubleshoot these in the first couple meetings.
 
 Other helpful tools:
 
@@ -51,7 +52,7 @@ Week    |  Calendar Date        | Topic        | Description
 08 | Mar 11 | Paper & Methods | Dr. [April Wright](http://wrightaprilm.github.io/pages/about_me.html) will lead the discussion on her paper: [Wright et al. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. *Journal of Experimental Zoology*](http://onlinelibrary.wiley.com/doi/10.1002/jez.b.22642/full) 
 -- | Mar 18 | Spring Break | Whooo!
 09 | Mar 25 | Paper & Methods | TBA
-10 | Apr 1 | Open Lab | April Wright will lead an open-lab where you can apply methods to your own data. 
+10 | Apr 1 | Open Lab | April Wright will lead an open-lab where you can apply methods to your own data. Or April can lead a discussion/class of her choosing.
 11 | Apr 15 | Paper & Methods | TBA
 12 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
 13 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
