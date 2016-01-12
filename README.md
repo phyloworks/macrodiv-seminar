@@ -57,17 +57,25 @@ Week    |  Calendar Date        | Topic        | Description
 13 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
 
 ## Some Suggested Papers for Discussion
+
+#### Macroevolution of Species
+
 * "[Molecular phylogenetics and the diversification of hummingbirds](http://www.sciencedirect.com/science/article/pii/S0960982214002759)". McGuire et al. *Current Biology*, 2014.
-* "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013.
-* Some back-and-forth:
-	* "[Extinction rates can be estimated from molecular phylogenies](http://rstb.royalsocietypublishing.org/content/344/1307/77.short)". Nee et al. *Phil. Trans. B*, 1994.
-	* "[Extinction rates should not be estimated from molecular phylogenies](http://onlinelibrary.wiley.com/doi/10.1111/j.1558-5646.2009.00926.x/abstract?)". Rabosky. *Evolution*, 2010.
-	* "[Extinction can be estimated from moderately sized molecular phylogenies](http://onlinelibrary.wiley.com/doi/10.1111/evo.12614/abstract?)". Beaulieu & O'Meara. *Evolution*, 2015.
-	* "[Challenges in the estimation of extinction from molecular phylogenies: A response to Beaulieu and O'Meara](http://onlinelibrary.wiley.com/doi/10.1111/evo.12820/abstract?)". Rabosky. *Evolution*, 2015.
 * "[Faster speciation and reduced extinction in the tropics contribute to the mammalian latitudinal diversity gradient](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001775)". Rolland et al. *PLoS Biology, 2014.
 * "[Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes](http://www.pnas.org/content/110/31/12738.short)". Near et al. *PNAS*, 2013.
 * "[Ecological and evolutionary determinants for the adaptive radiation of the Madagascan vangas](http://www.pnas.org/content/109/17/6620.short)". Jønsson et al. *PNAS*, 2012.
 * "[Testing the museum versus cradle tropical biological diversity hypothesis: phylogeny, diversification, and ancestral biogeographic range evolution of the ants](http://onlinelibrary.wiley.com/doi/10.1111/evo.12105/abstract?)". Moreau & Bell. *Evolution*, 2013.
+* Some interesting back-and-forth:
+	* "[Extinction rates can be estimated from molecular phylogenies](http://rstb.royalsocietypublishing.org/content/344/1307/77.short)". Nee et al. *Phil. Trans. B*, 1994.
+	* "[Extinction rates should not be estimated from molecular phylogenies](http://onlinelibrary.wiley.com/doi/10.1111/j.1558-5646.2009.00926.x/abstract?)". Rabosky. *Evolution*, 2010.
+	* "[Extinction can be estimated from moderately sized molecular phylogenies](http://onlinelibrary.wiley.com/doi/10.1111/evo.12614/abstract?)". Beaulieu & O'Meara. *Evolution*, 2015.
+	* "[Challenges in the estimation of extinction from molecular phylogenies: A response to Beaulieu and O'Meara](http://onlinelibrary.wiley.com/doi/10.1111/evo.12820/abstract?)". Rabosky. *Evolution*, 2015.
+
+#### Evolutionary Dynamics of Infectious Disease
+
+* "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013.
+* "[Insights into the Early Epidemic Spread of Ebola in Sierra Leone Provided by Viral Sequence Data](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4205153/)". Stadler et al. *PLoS Currents: Outbreaks*, 2014.
+
 
 ## Expectations of Enrolled Students
 
