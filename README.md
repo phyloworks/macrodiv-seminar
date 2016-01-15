@@ -41,7 +41,7 @@ Other helpful tools:
 
 Week    |  Calendar Date        | Topic        | Description 
 --------|---------------|--------------|-------------
-00 | Jan 12 | Organizational | Welcome, software needed, discussion of expectations. <span style="color:red">**_This meeting will be held on Tuesday, Jan 12 at 2:10 PM in 255 Bessey_**</span>
+~~00~~ | Jan 12 | Organizational | Welcome, software needed, discussion of expectations. <span style="color:red">**_This meeting will be held on Tuesday, Jan 12 at 2:10 PM in 255 Bessey_**</span>
 01 | Jan 22 | Introduction to phylogenetic methods for diversification | Background on phylogenetic methods and macroevolutionary analysis of diversification 
 02 | Jan 29 | Divergence-time estimation | Bayesian methods for estimating time-calibrated phylogenies and why they are important for understanding diversification
 03 | Feb 5 | Bayesian divergence-time estimation in BEAST2 | Hands-on tutorial on estimating time-calibrated phylogenies using the program [BEAST2](http://beast2.org/). Bring your laptop.
