@@ -66,6 +66,7 @@ Week    |  Calendar Date        | Topic        | Description
 * "[Phylogeny and tempo of diversification in the superradiation of spiny-rayed fishes](http://www.pnas.org/content/110/31/12738.short)". Near et al. *PNAS*, 2013.
 * "[Ecological and evolutionary determinants for the adaptive radiation of the Madagascan vangas](http://www.pnas.org/content/109/17/6620.short)". Jønsson et al. *PNAS*, 2012.
 * "[Testing the museum versus cradle tropical biological diversity hypothesis: phylogeny, diversification, and ancestral biogeographic range evolution of the ants](http://onlinelibrary.wiley.com/doi/10.1111/evo.12105/abstract?)". Moreau & Bell. *Evolution*, 2013.
+* "[Fossils, phylogenies, and the challenge of preserving evolutionary history in the face of anthropogenic extinctions](http://www.pnas.org/content/112/16/4909.short)" Huang et al., *PNAS*, 2015.
 * Some interesting back-and-forth:
 	* "[Extinction rates can be estimated from molecular phylogenies](http://rstb.royalsocietypublishing.org/content/344/1307/77.short)". Nee et al. *Phil. Trans. B*, 1994.
 	* "[Extinction rates should not be estimated from molecular phylogenies](http://onlinelibrary.wiley.com/doi/10.1111/j.1558-5646.2009.00926.x/abstract?)". Rabosky. *Evolution*, 2010.
