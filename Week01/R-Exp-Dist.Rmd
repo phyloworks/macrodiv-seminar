@@ -1,0 +1,93 @@
+---
+title: "The Exponential Distribution in R"
+output: html_document
+---
+
+This tutorial will walk you through some R basics and demonstrate some functions for learning about the exponential disstribution. R provides an accessable way to learn about and manipulate different types of distributions. 
+
+### What is the Exponential Distribution
+
+The [exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution) is a continuous probability distribution that appears frequently as a model in likelihood-based phylogenetic methods.
+
+The exponential distribution is a special case of the gamma distribution and is
+characterized by a single rate parameter, often denoted $\lambda$. For any exponential distribution, the expected value (mean) is equal to $\lambda^{-1}$ and the median is $\lambda^{-1}*ln(2)$. Furthermore, the mode (or value with the highest probability mass) is always equal to 0. 
+
+One way to visualize the probaility density of any parametric distribution is to generate a vector of random draws in R using the `rexp()` function. 
+
+```{r}
+sim_exp <- rexp(10000,1)
+```
+
+This command simulated realizations of exponentially-distributed variables. It generated `10000` random draws from an exponetial distribution with $\lambda = 1$ and stored them in a vector called `sim_exp`. A vector is a container that holds a sequence of data elements of the same "type". 
+
+You can see the first 5 elements in this vector with the commands:
+
+```{r}
+sim_exp[1:5]
+```
+
+$^*$Note that your vector will contain different values than provided by this tutorial since the random-number generators are issued with different seeds. 
+
+To view the distribution of simulated values, simply plot the vector `sim_exp` as a histogram using the `hist()` function. The code below provides two arguments to this function, first is the vector we wish to visualize and the second is the number of cells or bins for the histogram, which in this case is `50`.
+```{r}
+h_s <- hist(sim_exp,50)
+```
+We assigned the histogram to a variable so that we can access components of it later.
+
+If you change the rate of the exponential distribution, this will change both the expected value and the variance. Draw another set of exponentially distriubted random variables with a rate of 10:
+```{r}
+sim_exp2 <- rexp(10000,5)
+```
+
+And plot the histogram:
+```{r}
+h_s2 <- hist(sim_exp2,50)
+```
+
+You can see that these two distributions are centered on different values:
+```{r}
+mean(sim_exp)
+mean(sim_exp2)
+```
+
+Compare them in the same graph by plotting the histograms as lines:
+```{r}
+plot(h_s$mids,h_s$density,type="l",lwd=3)
+lines(h_s2$mids,h_s2$density,col="red",lwd=3)
+```
+
+You will see that the plot didn't consider the fact that the red line exceeded the maximum density of the initial plot. To fix this, we need to set the y-axis limits first.
+
+```{r}
+plot(h_s$mids,h_s$density,type="l",lwd=3,ylim=c(0,max(h_s2$density)))
+lines(h_s2$mids,h_s2$density,col="red",lwd=3)
+```
+
+By comparing these two distributions, you should get a sense of how changing the rate of the exponential changes the expectations of the model. However, you don't necessarily need to draw random samples to plot the densities from any parameteric distribution. 
+
+```{r}
+x <- seq(0, 10, length=200)
+hx <- dexp(x, rate=1)
+plot(x, hx, type='l', lwd=3,ylim=c(0,5))
+```
+
+The `dexp()` function returns the density of every element in `x` under the exponential distribution with a rate of `1`. We can compare several different values for $\lambda$ using this function. First let's create a vector of the values we want to visualize and a vector of corresponding color labels:
+
+```{r}
+lam <- c(0.5,1.5,2,2.5,3)
+colors <- c("red", "blue", "darkgreen", "purple", "orange")
+```
+
+Then plot everything in a for-loop, but first starting with $\lambda=1$:
+
+```{r}
+x <- seq(0, 10, length=200)
+hx <- dexp(x, rate=1)
+plot(x, hx, type='l', lwd=3,ylim=c(0,3))
+for(i in 1:length(lam)) {
+  hx <- dexp(x, rate=lam[i])
+  lines(x, hx, type='l', lwd=3,col=colors[i])
+}
+```
+
+A `for` loop is a way to iteratively execute the same functions. It convienently allows us to plot each density with each corresponding lambda value without having to replicate the same code.
