@@ -32,6 +32,7 @@ To view the distribution of simulated values, simply plot the vector `sim_exp` a
 ```{r}
 h_s <- hist(sim_exp,50)
 ```
+
 We assigned the histogram to a variable so that we can access components of it later.
 
 If you change the rate of the exponential distribution, this will change both the expected value and the variance. Draw another set of exponentially distriubted random variables with a rate of 10:
