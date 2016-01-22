@@ -63,15 +63,7 @@ plot(h_s$mids,h_s$density,type="l",lwd=3,ylim=c(0,max(h_s2$density)))
 lines(h_s2$mids,h_s2$density,col="red",lwd=3)
 ```
 
-By comparing these two distributions, you should get a sense of how changing the rate of the exponential changes the expectations of the model. However, you don't necessarily need to draw random samples to plot the densities from any parameteric distribution. 
-
-```{r}
-x <- seq(0, 10, length=200)
-hx <- dexp(x, rate=1)
-plot(x, hx, type='l', lwd=3,ylim=c(0,5))
-```
-
-The `dexp()` function returns the density of every element in `x` under the exponential distribution with a rate of `1`. We can compare several different values for $\lambda$ using this function. First let's create a vector of the values we want to visualize and a vector of corresponding color labels:
+By comparing these two distributions, you should get a sense of how changing the rate of the exponential changes the expectations of the model. However, you don't necessarily need to draw random samples to plot the densities from any parameteric distribution. The `dexp()` function returns the density of every element in `x` under the exponential distribution with a rate of `1`. We can compare several different values for $\lambda$ using this function. First let's create a vector of the values we want to visualize and a vector of corresponding color labels:
 
 ```{r}
 lam <- c(0.5,1.5,2,2.5,3)
