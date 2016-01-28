@@ -43,7 +43,7 @@ Week    |  Calendar Date        | Topic        | Description
 --------|---------------|--------------|-------------
 ~~00~~ | ~~Jan 12~~ | Organizational | Welcome, software needed, discussion of expectations. <span style="color:red">**_This meeting will be held on Tuesday, Jan 12 at 2:10 PM in 255 Bessey_**</span>
 ~~01~~ | ~~Jan 22~~ | Introduction to phylogenetic methods for diversification | Background on phylogenetic methods and macroevolutionary analysis of diversification. Plus software installation troubleshooting and a mini R tutorial. [Week01](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week01)
-02 | Jan 29 | Divergence-time estimation | Bayesian methods for estimating time-calibrated phylogenies and why they are important for understanding diversification
+02 | Jan 29 | Divergence-time estimation | Bayesian methods for estimating time-calibrated phylogenies and why they are important for understanding diversification [Week02](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week02)
 03 | Feb 5 | Bayesian divergence-time estimation in BEAST2 | Hands-on tutorial on estimating time-calibrated phylogenies using the program [BEAST2](http://beast2.org/). Bring your laptop.
 04 | Feb 12 | Birth-death processes | Stochastic branching processes, their assumptions, and how these models are used to understand lineage diversification.
 05 | Feb 19 | Paper & Methods | Discuss the applications and approaches of [Jetz et al. 2012 The global diversity of birds in space and time. *Nature*](http://www.nature.com/nature/journal/v491/n7424/full/nature11631.html).
