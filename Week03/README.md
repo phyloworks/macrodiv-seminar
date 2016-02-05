@@ -1,6 +1,6 @@
 ### Week 03 
 
-This week we will walk through a tutorial on how to estimate a dated phylogeny in the program [BEAST2](http://beast2.org/). Details about this tutorial can be found on this website and will be updated by 3PM:
+This week we will walk through a tutorial on how to estimate a dated phylogeny in the program [BEAST2](http://beast2.org/). Details about this tutorial can be found on this website:
 
 [http://treethinkers.org/tutorials/divergence-time-estimation-using-beast/](http://treethinkers.org/tutorials/divergence-time-estimation-using-beast/)
 
