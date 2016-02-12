@@ -6,7 +6,7 @@ Then we will discuss the birth-death process in more detail. Lecture slides are 
 
 #### Assigning Discussion Papers
 
-There are 8 registered students in the class and 4 unscheduled topics. We will schedule the students leading each of the following weeks:
+There are 8 registered students in the class and 4 unscheduled topics. We will schedule the student pairs leading each of the following weeks:
 
 Week    |  Calendar Date        | Topic        | Description 
 --------|---------------|--------------|-------------
