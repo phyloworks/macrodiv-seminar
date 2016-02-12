@@ -47,13 +47,13 @@ Week    |  Calendar Date        | Topic        | Description
 ~~03~~ | ~~Feb 5~~ | Bayesian divergence-time estimation in BEAST2 | Hands-on tutorial on estimating time-calibrated phylogenies using the program [BEAST2](http://beast2.org/). Bring your laptop. [Week03](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week03)
 04 | Feb 12 | Birth-death processes | Stochastic branching processes, their assumptions, and how these models are used to understand lineage diversification. [Week04](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week04)
 05 | Feb 19 | Paper & Methods | Discuss the applications and approaches of [Jetz et al. 2012 The global diversity of birds in space and time. *Nature*](http://www.nature.com/nature/journal/v491/n7424/full/nature11631.html).
-06 | Feb 26 | Paper & Methods | TBA
-07 | Mar 4 | Paper & Methods | TBA
+06 | Feb 26 | Paper & Methods |Erica & Jermaine
+07 | Mar 4 | Paper & Methods | Bryan & Nick
 08 | Mar 11 | Paper & Methods | Dr. [April Wright](http://wrightaprilm.github.io/pages/about_me.html) will lead the discussion on her paper: [Wright et al. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. *Journal of Experimental Zoology*](http://onlinelibrary.wiley.com/doi/10.1002/jez.b.22642/full) 
 -- | Mar 18 | Spring Break | Whooo!
-09 | Mar 25 | Paper & Methods | TBA
+09 | Mar 25 | Paper & Methods | Hylia & Kelly
 10 | Apr 1 | Open Lab | April Wright will lead an open-lab where you can apply methods to your own data. Or April can lead a discussion/class of her choosing.
-11 | Apr 15 | Paper & Methods | TBA
+11 | Apr 15 | Paper & Methods | Cameron & Jessica
 12 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
 13 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
 
