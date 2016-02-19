@@ -47,7 +47,7 @@ Week    |  Calendar Date        | Topic        | Description
 ~~03~~ | ~~Feb 5~~ | Bayesian divergence-time estimation in BEAST2 | Hands-on tutorial on estimating time-calibrated phylogenies using the program [BEAST2](http://beast2.org/). Bring your laptop. [Week03](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week03)
 ~~04~~ | ~~Feb 12~~ | Birth-death processes | Stochastic branching processes, their assumptions, and how these models are used to understand lineage diversification. [Week04](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week04)
 05 | Feb 19 | Paper & Methods | Discuss the applications and approaches of [Jetz et al. 2012 The global diversity of birds in space and time. *Nature*](http://www.nature.com/nature/journal/v491/n7424/full/nature11631.html). More info: [Week05](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week05)
-06 | Feb 26 | Paper & Methods |Erica & Jermaine
+06 | Feb 26 | Paper & Methods |Erica & Jermaine will lead the discussion on: Jønsson et al. 2012 [Ecological and evolutionary determinants for the adaptive radiation of the Madagascan vangas](http://www.pnas.org/content/109/17/6620.short). _PNAS_ 109:6620–6625.
 07 | Mar 4 | Paper & Methods | Bryan & Nick
 08 | Mar 11 | Paper & Methods | Dr. [April Wright](http://wrightaprilm.github.io/pages/about_me.html) will lead the discussion on her paper: [Wright et al. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. *Journal of Experimental Zoology*](http://onlinelibrary.wiley.com/doi/10.1002/jez.b.22642/full) 
 -- | Mar 18 | Spring Break | Whooo!
