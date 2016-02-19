@@ -1,0 +1,136 @@
+---
+title: "Week 05: Lineage-through-time plots in R"
+output: html_document
+---
+
+This tutorial will take you through the simple steps of simulating phylogenies under the Yule and birth-death models, then creating lineage-through-time (LTT) plots. The exercises presented here are based on tutorials written by Paul Lewis ([http://hydrodictyon.eeb.uconn.edu/eebedia/index.php/Phylogenetics:_APE_Lab](http://hydrodictyon.eeb.uconn.edu/eebedia/index.php/Phylogenetics:_APE_Lab)) and Liam Revell ([http://www.phytools.org/mpma/Exercise_9.1/](http://www.phytools.org/mpma/Exercise_9.1/)).
+
+First load the [`phytools`](http://www.phytools.org/) package in R. This package was written by [Liam Revell](http://blog.phytools.org/) and provides functions for performing a wide range of analyses in comparative phylogenetics. When you load this library, it will also load the dependent libraries `ape` and `maps`.
+
+```{r}
+library(phytools)
+```
+
+We will also load another package that simulates birth-death phylgoenies called [`TreeSim`](https://cran.r-project.org/web/packages/TreeSim/index.html), writen by [Tanja Stadler](https://www.bsse.ethz.ch/cevo). This package will automatically load the packages `laser` and `geiger`. 
+
+```{r}
+library(TreeSim)
+```
+
+These exercises will take you through simulating trees under stochastic branching models. 
+
+First generate a tree under the Yule model (where extinction = 0) with 100 tips. To do this, we will use the `sim.bd.taxa()` function in `TreeSim`. 
+
+```{r}
+trees <- sim.bd.taxa(n=100,numbsim=1,lambda=0.03,mu=0,frac=1,complete=FALSE)
+```
+
+The `sim.bd.taxa()` function simulates trees under the birth-death process conditional on the number of sampled taxa. Here, we simulated a tree with 100 tips (`n=100`) under a pure-birth model without extinction (`mu=0`) and with complete taxon sampling (`frac=1`). The tree stored in the `trees` variable is the _reconstructed_ tree, meaning that the extinct lingeages (found in the _complete_ tree) are all pruned away. We specify this tree by setting `complete=FALSE`. 
+
+The `sim.bd.taxa()` function returns a vector of trees and we can generate many replicates by setting `numbsim` to a value greater than `1`. We can store our single tree object in a separate vairable.
+
+```{r}
+t <- trees[[1]]
+```
+
+Now let's plot the tree to see what it looks like and make the edges red, for fun. And we will also make the tip labels pretty small using the `cex=0.2` argument.
+
+```{r}
+plot(t,edge.color="red",cex=0.2)
+```
+
+Note that your tree will not look identical to this one, unless by some chance the starting seed for your simulation was exactly the same as this one.
+
+And we can visualize the LTT plot:
+
+```{r}
+ltt_plot <- ltt(t,log=FALSE)
+```
+
+The plot above shows the unscaled lineages through time. We simulated a tree with a constant rate of speciation and no extinction or sampling. Thus, this is the same a exponential growth model.
+
+When the lineages are plotted on the log scale, the number of species increases linearly over time. We can also add a line corresponding to linear growth.
+
+```{r}
+ln_ltt_plot <- ltt(t,log=TRUE)
+lines(c(0, max(nodeHeights(t))), c(log(2), log(length(t$tip.label))),lty = "dashed", lwd = 2, col = "red")
+```
+
+
+We can calculate the slope of the line:
+
+```{r}
+(log(length(t$tip.label)) - log(2)) / (max(nodeHeights(t)))
+```
+
+And this should be close to the speciation rate we simulated under (`0.3`).
+
+The `ape` package provides a way to fit a Yule model to a phylogenetic tree using the `yule()` function:
+
+```{r}
+yule(t)
+```
+
+This prints the speciation rate (`lambda`) estimated under maximum likelihood, the standard error of lambda (`se`) and the maximum log-likelihood (`loglik`). "The maximum likelihood estimate of the speciation rate is obtained by the ratio of the number of speciation events on the cumulative number of species through time; these two quantities are obtained with the number of nodes in the tree, and the sum of the branch lengths, respectively." (from the `ape` help: `help(yule)`).
+
+Now let's simulate a tree with extinction:
+
+```{r}
+bd_trees <- sim.bd.taxa(n=100,numbsim=1,lambda=0.03,mu=0.025,frac=1,complete=FALSE)
+bd_t <- bd_trees[[1]]
+plot(bd_t,edge.color="blue",cex=0.2)
+```
+
+Now for the log-lineages through time plot:
+
+```{r}
+bd_ln_ltt_plot <- ltt(bd_t,log=TRUE)
+lines(c(0, max(nodeHeights(bd_t))), c(log(2), log(length(bd_t$tip.label))),lty = "dashed", lwd = 2, col = "red")
+```
+
+Like for the Yule tree, we can estimate the diversification parameters of the birth-death tree using `ape` and the `birthdeath()` function.
+
+```{r}
+bd_stats <- birthdeath(bd_t)
+bd_stats
+```
+
+The summary tells you what the estimates for diversification (b - d) and turnover (d / b) are. We can easily get the values for speciation and extinction from these. First, let's check how they are stored using the `str()` function:
+
+```{r}
+str(bd_stats)
+```
+
+We can see that the diversification and turnover are stored as an array with the label `para`. We can now set these to some variables:
+
+```{r}
+r <- bd_stats$para[[1]]
+d <- bd_stats$para[[2]]
+r
+d
+```
+
+And we can calculate lambda:
+
+```{r}
+d/(1-r)
+```
+
+And mu:
+
+```{r}
+(r*d) / (1-r)
+```
+
+We can also produce LTT plots for lists of trees. To do this we will use a different function for simulating the birth-death trees: `pbtree()`. The return value of this simulation function is of the type `multiPhylo`, which is easier to input to the `ltt` function. 
+
+```{r}
+yule_trees <- pbtree(b=0.3,d=0.0,n=100,nsim=100,scale=1)
+```
+
+This time we are going to scale all of the trees to the same height so that they can be visualized on a relative scale.
+
+```{r}
+temp <- ltt(yule_trees, log = TRUE)
+lines(c(0, 1), c(log(2), log(100)), lty = "dashed", lwd = 2, col = "red")
+```
