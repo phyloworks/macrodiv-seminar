@@ -53,9 +53,10 @@ Week    |  Calendar Date        | Topic        | Description
 -- | Mar 18 | Spring Break | Whooo!
 09 | Mar 25 | Paper & Methods | Hylia & Kelly
 10 | Apr 1 | Open Lab | April Wright will lead an open-lab where you can apply methods to your own data. Or April can lead a discussion/class of her choosing.
-11 | Apr 15 | Paper & Methods | Cameron & Jessica
-12 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
-13 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
+11 | Apr 8 | Paper & Methods | Tracy will lead discussion
+12 | Apr 15 | Paper & Methods | Cameron & Jessica
+13 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
+14 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
 
 ## Some Suggested Papers for Discussion
 
