@@ -51,7 +51,7 @@ Week    |  Calendar Date        | Topic        | Description
 ~~07~~ | ~~Mar 4~~ | Paper & Methods | **Bryan & Nick** will lead the discussion on: Moreau and Bell 2013. [Testing the museum versus cradle tropical biological diversity hypothesis: phylogeny, diversification, and ancestral biogeographic range evolution of the ants](http://onlinelibrary.wiley.com/doi/10.1111/evo.12105/abstract?). Moreau & Bell. *Evolution*. More info: [Week07](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week07)
 ~~08~~ | ~~Mar 11~~ | Paper & Methods | Dr. [April Wright](http://wrightaprilm.github.io/pages/about_me.html) will lead the discussion on her paper: [Wright et al. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. *Journal of Experimental Zoology*](http://onlinelibrary.wiley.com/doi/10.1002/jez.b.22642/full). More info: [Week08](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week08)
 -- | Mar 18 | Spring Break | Whooo!
-09 | Mar 25 | Paper & Methods | **Hylia & Kelly** will lead the discussion on: "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013.
+09 | Mar 25 | Paper & Methods | **Hylia & Kelly** will lead the discussion on: "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013. More info: [Week09](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week09)
 10 | Apr 1 | Paper & Methods | April Wright 
 11 | Apr 8 | Paper & Methods | Tracy
 12 | Apr 15 | Paper & Methods | Cameron & Jessica
