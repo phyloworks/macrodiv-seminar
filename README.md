@@ -52,7 +52,7 @@ Week    |  Calendar Date        | Topic        | Description
 ~~08~~ | ~~Mar 11~~ | Paper & Methods | Dr. [April Wright](http://wrightaprilm.github.io/pages/about_me.html) will lead the discussion on her paper: [Wright et al. 2015. Which came first: The lizard or the egg? Robustness in phylogenetic reconstruction of ancestral states. *Journal of Experimental Zoology*](http://onlinelibrary.wiley.com/doi/10.1002/jez.b.22642/full). More info: [Week08](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week08)
 -- | Mar 18 | Spring Break | Whooo!
 09 | Mar 25 | Paper & Methods | **Hylia & Kelly** will lead the discussion on: "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013. More info: [Week09](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week09)
-10 | Apr 1 | Paper & Methods | April Wright 
+10 | Apr 1 | Paper & Methods | April Wright We will read [this](http://www.pnas.org/content/111/46/16442.full) paper, and discuss the [BAMM](http://bamm-project.org/) software.
 11 | Apr 8 | Paper & Methods | Tracy
 12 | Apr 15 | Paper & Methods | Cameron & Jessica
 13 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
