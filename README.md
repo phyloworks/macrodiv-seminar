@@ -53,8 +53,8 @@ Week    |  Calendar Date        | Topic        | Description
 -- | Mar 18 | Spring Break | Whooo!
 09 | Mar 25 | Paper & Methods | **Hylia & Kelly** will lead the discussion on: "[Birth–death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV)](http://www.pnas.org/content/110/1/228.short)". Stadler et al. *PNAS*, 2013. More info: [Week09](https://github.com/phyloworks/macrodiv-seminar/tree/master/Week09)
 10 | Apr 1 | Paper & Methods | April Wright We will read [this](http://www.pnas.org/content/111/46/16442.full) paper, and discuss the [BAMM](http://bamm-project.org/) software.
-11 | Apr 8 | Paper & Methods | Tracy
-12 | Apr 15 | Paper & Methods | Cameron & Jessica
+11 | Apr 8 | Paper & Methods | Tracy will lead the discussion on: "[Aposematism increases acoustic diversification and speciation in poison frogs](http://rspb.royalsocietypublishing.org/content/royprsb/281/1796/20141761.full.pdf)." Santos et al. *Proc. Roy. Soc. B* 2014.
+12 | Apr 15 | Paper & Methods | **Cameron & Jessica** will lead the discussion on "[Molecular Phylogenetics and the Diversification of Hummingbirds](http://www.cell.com/current-biology/fulltext/S0960-9822(14)00275-9)." McGuire et al. *Current Biology* 2014.
 13 | Apr 22 | State-dependent diversification with Emma Goldberg | Dr. [Emma Goldberg](http://eeg.github.io/lab/home.html) will be visiting the EEOB department from U. Minnesota. She will be giving the [EEOB Seminar on April 21](http://www.eeob.iastate.edu/dr-emma-goldberg-seminar-speaker). We will discuss state-dependent diversification methods in detail with Emma.
 14 | Apr 29 | Future Directions | Discuss the current state of the field and future research needed to help researchers answer questions about lineage diversification.
 
